@@ -2,12 +2,27 @@
     box-sizing: border-box;
 }
 
+#nav-logo{
+    height: 90px;
+    padding: 7px;
+}
+
 body{
     margin: 0px;
 }
+
 nav{
-    background-color: aqua;
-    padding: 0px;
-    /* border: 1px solid black; */
-    box-shadow: 5px 5px 10px;
+    box-shadow: 0px 0px 10px;
+    display: flex;
 }
+
+h1, p {
+    font-family: 'Pacifico', cursive;
+}
+
+section {
+    max-width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
