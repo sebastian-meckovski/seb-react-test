@@ -26,3 +26,11 @@ section {
     padding: 20px;
 }
 
+.Card{
+    width: 200px;
+    font-size: 15px;
+}
+
+.Card > p{
+    margin: 0px;
+}
