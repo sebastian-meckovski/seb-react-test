@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+.gray{
+    color: #918E9B;
+}
+
 #nav-logo{
     height: 90px;
     padding: 7px;
@@ -16,7 +20,7 @@ nav{
     display: flex;
 }
 
-h1, p {
+h1, p, span {
     font-family: 'Pacifico', cursive;
 }
 
@@ -26,9 +30,13 @@ section {
     padding: 20px;
 }
 
+#cardStar{
+    height: 14px;
+}
+
 .Card{
-    width: 200px;
-    font-size: 15px;
+    width: 270px;
+    font-size: 18px;
 }
 
 .Card > p{
