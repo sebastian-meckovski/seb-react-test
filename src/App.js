@@ -3,18 +3,20 @@ import Hero from './Components/Hero'
 import Navbar from './Components/Navbar'
 import Card from './Components/Card'
 import cardPhoto1 from "../src/images/katie-zaferes.png";
+import data from './data';
 
 
 export default function App() {
+  console.log(data)
   return (
     <div>
       <Navbar/>
       <Hero />
       <Card img={cardPhoto1}
-            price={"£168"}
+            price={"120"}
             cardName="Life lessons with Katie Zafres"
             rating={"5.5 "}
-            country={"usa"}/>
+            location={"usa"}/>
     </div>
   )
 }
