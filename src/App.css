@@ -12,7 +12,7 @@
 }
 
 body{
-    margin: 0px;
+    margin: 0 auto;
 }
 
 nav{
@@ -24,10 +24,16 @@ h1, p, span {
     font-family: 'Pacifico', cursive;
 }
 
-section {
-    max-width: 80%;
-    margin: auto;
-    padding: 20px;
+#section {
+    margin-left: 30px;
+    margin-right: 30px;
+    justify-content: center;
+}
+
+#photoGrid{
+    width: 80%;
+    margin: 10px auto;
+    display: block;
 }
 
 #cardStar{

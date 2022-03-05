@@ -19,3 +19,24 @@ export default function App() {
   )
 }
 
+// export default function App() {
+//   return (
+//     <div style={{"border":"2px black solid", 
+//                  "height": "50vh", 
+//                  "width": "50vh", 
+//                  "margin": "5vh"}}>
+//       <img alt='hello' src={cardPhoto1} style={{"width": "50px", 
+//                                                 "margin": "1px auto", 
+//                                                 "marginLeft": "auto", 
+//                                                 "marginRight": "auto",
+//                                                 "display": "block"}}/>
+//       <div style={{"border": "2px black solid",
+//                    "height": "10vh", 
+//                    "width": "10vh", 
+//                    "margin": "1px auto"}}>
+
+//       </div>
+//       <p style={{"textAlign": "center"}} >This needs to be centered</p>
+//     </div>
+//   )
+// }
