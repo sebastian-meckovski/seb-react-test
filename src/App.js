@@ -7,16 +7,23 @@ import data from './data';
 
 
 export default function App() {
-  console.log(data)
+  const cards = data.map(card => {
+    console.log(card.coverImg);
+    return(
+      <Card img={cardPhoto1}
+            price={card.price}
+            cardName={card.title}
+            rating={card.stats.rating + " "}
+            location={card.location}/>
+    );
+  })
   return (
     <div>
       <Navbar/>
       <Hero />
-      <Card img={cardPhoto1}
-            price={"120"}
-            cardName="Life lessons with Katie Zafres"
-            rating={"5.5 "}
-            location={"usa"}/>
+      <section class="cards-list">
+        {cards}
+      </section>
     </div>
   )
 }

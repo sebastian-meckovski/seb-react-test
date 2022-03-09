@@ -48,3 +48,9 @@ h1, p, span {
 .Card > p{
     margin: 0px;
 }
+.cards-list {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    overflow-x: auto;
+}
