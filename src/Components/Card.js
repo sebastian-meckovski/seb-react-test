@@ -1,11 +1,9 @@
 import React from "react";
 import star from "../images/star.png"
-import data from "../data.js"
 
 
 export default function Card(props){
     const alt = "not available"
-    console.log(data)
     return(
 
         
