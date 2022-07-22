@@ -1,51 +1,25 @@
-import './App.css'
-import Hero from './Components/Hero'
-import Navbar from './Components/Navbar'
-import Card from './Components/Card'
-import cardPhoto1 from "../src/images/katie-zaferes.png";
-import data from './data';
+import logo from './logo.svg';
+import './App.css';
 
-
-export default function App() {
-  const cards = data.map(card => {
-    return(
-      <Card key={card.id}
-            img={cardPhoto1}
-            price={card.price}
-            cardName={card.title}
-            rating={card.stats.rating + " "}
-            location={card.location}/>
-    );
-  })
+function App() {
   return (
-    <div>
-      <Navbar/>
-      <Hero />
-      <section className="cards-list">
-        {cards}
-      </section>
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
     </div>
-  )
+  );
 }
 
-// export default function App() {
-//   return (
-//     <div style={{"border":"2px black solid", 
-//                  "height": "50vh", 
-//                  "width": "50vh", 
-//                  "margin": "5vh"}}>
-//       <img alt='hello' src={cardPhoto1} style={{"width": "50px", 
-//                                                 "margin": "1px auto", 
-//                                                 "marginLeft": "auto", 
-//                                                 "marginRight": "auto",
-//                                                 "display": "block"}}/>
-//       <div style={{"border": "2px black solid",
-//                    "height": "10vh", 
-//                    "width": "10vh", 
-//                    "margin": "1px auto"}}>
-
-//       </div>
-//       <p style={{"textAlign": "center"}} >This needs to be centered</p>
-//     </div>
-//   )
-// }
+export default App;
